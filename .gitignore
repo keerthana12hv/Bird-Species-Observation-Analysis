@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Generated data (bird_data_cleaned.csv is intentionally NOT ignored —
+# the deployed Streamlit app reads it directly since it can't reach local MySQL)
+
+# Generated charts (regenerate by running birds_analysis.py)
+eda_outputs/
+
+# VS Code
+.vscode/
+
+# Database credentials — never commit this
+config.py
